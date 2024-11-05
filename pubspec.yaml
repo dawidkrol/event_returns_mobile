@@ -1,0 +1,37 @@
+name: event_returns_mobile
+description: A Very Good App
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  auto_route: ^9.2.2 # routing
+  bloc: ^8.1.4
+  equatable: ^2.0.5 # do blocka
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations: # do jezyka
+    sdk: flutter
+  freezed: ^2.5.7 # do blocka
+  flutter_map: ^3.0.0
+  latlong2: ^0.8.1     # potrzebny do pracy z punktami geograficznymi w flutter_map
+  geojson_vi: ^2.0.0  # Check for the latest version on pub.dev
+  geocoding: ^2.0.6 # Dodaj ten pakiet do geokodowania adresów
+
+dev_dependencies:
+  auto_route_generator: ^9.0.0
+  bloc_test: ^9.1.7
+  build_runner: ^2.4.13 # przebudowywanie projektu dart run build_runner build --delete-conflicting-outputs
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/route.geojson
