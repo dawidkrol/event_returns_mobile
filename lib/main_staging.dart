@@ -1,6 +1,7 @@
-import 'package:event_returns_mobile/app/app.dart';
 import 'package:event_returns_mobile/bootstrap.dart';
 
+import 'package:event_returns_mobile/presentation/app.dart';
+
 void main() {
-  bootstrap(() => const App());
+  bootstrap(App.new);
 }

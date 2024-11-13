@@ -16,10 +16,11 @@ dependencies:
   flutter_localizations: # do jezyka
     sdk: flutter
   freezed: ^2.5.7 # do blocka
-  flutter_map: ^3.0.0
   latlong2: ^0.8.1     # potrzebny do pracy z punktami geograficznymi w flutter_map
   geojson_vi: ^2.0.0  # Check for the latest version on pub.dev
   geocoding: ^2.0.6 # Dodaj ten pakiet do geokodowania adresów
+  flutter_map: ^4.0.0
+  geolocator: ^13.0.1
 
 dev_dependencies:
   auto_route_generator: ^9.0.0
